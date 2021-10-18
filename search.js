@@ -9,4 +9,20 @@ let news = document.getElementById(newses);
         console.log("data", data)
 
         newses.append(data)
+        // append_News(data)
     }
+
+
+    // let newses = document.getElementById("data");
+
+    // function append_News(data){
+
+
+    //     let author = document.createElement("p");
+    //     author.innerText = airticles.author;
+
+    //     let content = document.createElement("p");
+    //     content.innerText = airticles.content;
+
+    //     newses.append(author, content)
+    // }
