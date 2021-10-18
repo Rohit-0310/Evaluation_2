@@ -6,8 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Search</title>
 </head>
+<style>
+    #head{
+        margin-left: 40%;
+    }
+    #queary{
+        width: 25%;
+        height: 25px;
+        border: 2px solid black;
+        border-radius: 50px;
+    }
+    #search{
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 50px;
+    }
+    h1{
+        text-align: center;
+        
+    }
+</style>
 <body>
-    <div>
+    <div id="head">
         <input type="text" id="queary" placeholder="Search News">
         <button id="search" onclick="getnews()">Search</button>
     </div>
