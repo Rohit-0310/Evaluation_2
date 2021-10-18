@@ -23,15 +23,22 @@
     }
     h1{
         text-align: center;
-        
+
+    }
+    #home{
+        margin-top: 20px;
     }
 </style>
 <body>
-    <div id="head">
-        <input type="text" id="queary" placeholder="Search News">
-        <button id="search" onclick="getnews()">Search</button>
+    <div>
+        <a href="home.html"><div id="home">Home</div></a>
+        <a href="news.html">news</a>
+        <div id="head">
+            <input type="text" id="queary" placeholder="Search News">
+            <button id="search" onclick="getnews()">Search</button>
+        </div>
     </div>
-    <h1>Top News</h1>
+    <h1>Headline</h1>
     <div id="newses"></div>
 </body>
 </html>
